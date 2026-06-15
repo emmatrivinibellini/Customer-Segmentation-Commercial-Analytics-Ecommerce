@@ -188,5 +188,5 @@ The dataset used for this project is publicly available here:
 | `sql_query.sql` | Table creation, views, RFM clustering, YoY growth, cohort retention, churn flagging |
 | `Commercial_Analytics_Ecommerce.ipynb` | Python: data cleaning, EDA, segmentation, commercial metrics (AOV, GMV, LTV, churn, retention, sell-through) |
 | `IMAGES` | Tableau dashboards (full period overview and 2021 annual deep dive), AOV, GMV, LTV, Churn Risk,Sell-Through, Retention Cohort |
-| `Commercial_Analytics_Ecommerce.pdf` | Project summary, key insights, and strategy proposals |
+| `Commercial Analytics Ecommerce Presentation.pdf` | Project summary, key insights, and strategy proposals |
 | `README.md` | Case study: problem, methodology, findings, recommendations |
