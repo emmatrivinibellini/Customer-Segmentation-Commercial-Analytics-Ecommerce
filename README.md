@@ -68,23 +68,6 @@ Without answers to these questions, marketing budgets were being allocated broad
 
 ---
 
-## Metrics & Proxy Methodology
-
-This dataset contains transaction records without a price column. The following commercial metrics were calculated using proxy approaches — a standard practice when working with incomplete real-world data.
-
-| Commercial Metric | Standard Definition | Proxy Used in This Project | Why |
-|---|---|---|---|
-| **AOV** (Avg Order Value) | Revenue / Transactions | Avg purchases per user per period | No price column in dataset |
-| **GMV** | Total transaction value | Transaction count weighted by price tier | Price tier (premium/avg/cheap) used as value signal |
-| **LTV** (Customer Lifetime Value) | Revenue x retention rate | Purchase frequency x satisfaction score | Satisfaction (stars) used as quality/retention proxy |
-| **Retention Rate** | Returning users / Total users | Cohort repeat purchase rate by month | Calculated via cohort analysis in SQL |
-| **Churn Risk** | Users below revenue threshold | Days since last purchase (180+/90+/<90) | Industry-standard recency threshold |
-| **Sell-through Rate** | Units sold / Units available | Category % of total transactions | No inventory data available |
-
-> **Note:** All proxy metrics are clearly labelled throughout the SQL queries and Python notebook. In a production environment with revenue data, these would be replaced with exact calculations.
-
----
-
 ## Skills Used
 
 | Tool | Techniques |
