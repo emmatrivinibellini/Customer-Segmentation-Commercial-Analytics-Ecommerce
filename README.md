@@ -2,25 +2,6 @@
 
 ---
 
-## Tools & Skills
-
-![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627?style=flat&logo=tableau&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat&logo=jupyter&logoColor=white)
-
-**SQL:** CTEs · Window Functions · RANK() · PERCENTILE_CONT · YoY Analysis · Cohort Analysis · RFM Scoring  
-**Python:** Pandas · NumPy · Seaborn · Matplotlib · Plotly · SciPy · Customer Segmentation  
-**Tableau:** Interactive Dashboards · KPI Cards · Geo Maps · Trend Analysis · Filters
-
----
-
-## Core Commercial Metrics
-
-`AOV` · `GMV` · `LTV` · `Churn Risk` · `Retention Rate` · `Sell-through Rate` · `RFM Segmentation` · `YoY Growth` · `Cohort Analysis` · `Seasonal Trend`
-
----
-
 ## Executive Summary
 
 An e-commerce platform operating across 3 European markets (IT, UK, FR) was experiencing **unclear customer segmentation and no visibility into churn risk or seasonal demand patterns** — making it difficult to prioritise marketing spend and inventory investment.
@@ -78,6 +59,12 @@ Without answers to these questions, marketing budgets were being allocated broad
 
 ---
 
+## Core Commercial Metrics
+
+`AOV` · `GMV` · `LTV` · `Churn Risk` · `Retention Rate` · `Sell-through Rate` · `RFM Segmentation` · `YoY Growth` · `Cohort Analysis` · `Seasonal Trend`
+
+---
+
 ## Results & Business Recommendations
 
 ### Tableau Dashboards
@@ -92,7 +79,7 @@ Without answers to these questions, marketing budgets were being allocated broad
 
 | Churn Risk Segmentation | LTV Proxy by RFM Segment |
 |---|---|
-| ![Churn Risk](images/churn_risk.png) | ![LTV Proxy](images/ltv_proxy.png) |
+| ![Churn Risk](IMAGES/churn_risk.png) | ![LTV Proxy](images/ltv_proxy.png) |
 
 | AOV Proxy by Country & Price Tier | GMV Proxy by Market & Category |
 |---|---|
