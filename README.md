@@ -71,7 +71,7 @@ Without answers to these questions, marketing budgets were being allocated broad
 
 | Full Period Overview (2021–2023) | 2021 Annual Deep Dive |
 |---|---|
-| ![General Dashboard](images/dashboard_general.png) | ![2021 Dashboard](images/dashboard_2021.png) |
+| ![General Dashboard](IMAGES/dashboard_general.png) | ![2021 Dashboard](IMAGES/dashboard_2021.png) |
 
 ---
 
@@ -79,15 +79,15 @@ Without answers to these questions, marketing budgets were being allocated broad
 
 | Churn Risk Segmentation | LTV Proxy by RFM Segment |
 |---|---|
-| ![Churn Risk](IMAGES/churn_risk.png) | ![LTV Proxy](images/ltv_proxy.png) |
+| ![Churn Risk](IMAGES/churn_risk.png) | ![LTV Proxy](IMAGES/ltv_proxy.png) |
 
 | AOV Proxy by Country & Price Tier | GMV Proxy by Market & Category |
 |---|---|
-| ![AOV Proxy](images/aov_proxy.png) | ![GMV Proxy](images/gmv_proxy.png) |
+| ![AOV Proxy](IMAGES/aov_proxy.png) | ![GMV Proxy](IMAGES/gmv_proxy.png) |
 
 | Sell-through Rate by Category (2021–2023) | Cohort Retention Rate |
 |---|---|
-| ![Sell-through](images/sell_through.png) | ![Retention Cohort](images/retention_cohort.png) |
+| ![Sell-through](IMAGES/sell_through.png) | ![Retention Cohort](IMAGES/retention_cohort.png) |
 
 ---
 
