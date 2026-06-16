@@ -1,14 +1,14 @@
-# Customer Segmentation & Commercial Analytics — E-commerce Platform
+# Customer Segmentation & Commercial Analytics E-commerce Platform
 
 ---
 
 ## Executive Summary
 
-An e-commerce platform operating across 3 European markets (IT, UK, FR) was experiencing **unclear customer segmentation and no visibility into churn risk or seasonal demand patterns** — making it difficult to prioritise marketing spend and inventory investment.
+An e-commerce platform operating across 3 European markets (IT, UK, FR) was experiencing **unclear customer segmentation and no visibility into churn risk or seasonal demand patterns**, making it difficult to prioritise marketing spend and inventory investment.
 
-Using SQL, Python, and Tableau, I analysed **999 transactions from 241 unique users over 3 years (2021–2023)** to identify which customer segments drive the most value, where churn risk is highest, and how seasonality affects category performance.
+Using **SQL, Python, and Tableau**, I analysed **999 transactions from 241 unique users over 3 years (2021–2023)** to identify which customer segments drive the most value, where churn risk is highest, and how seasonality affects category performance.
 
-**Key impact:** Premium-tier customers represent **43.3% of all transactions** and Italy is the top market with **45.1% of users** — but **78 users (32% of the base) are at high churn risk** (180+ days inactive). The highest-LTV segment (Sylvie) shows an avg LTV proxy of 18.18. Q3 consistently drives peak sales volume, with Belts as the top sell-through category at **33.9% of all transactions**.
+**Key impact:** Premium-tier customers represent **43.3% of all transactions** and Italy is the top market with **45.1% of users**, but **78 users (32% of the base) are at high churn risk** (180+ days inactive). The highest-LTV segment (Sylvie) shows an avg LTV proxy of 18.18. Q3 consistently drives peak sales volume, with Belts as the top sell-through category at **33.9% of all transactions**.
 
 **Next steps:** Implement RFM-based re-engagement campaigns for the 78 high-churn-risk users, increase Belt and Shoe inventory ahead of Q3, and run A/B tests on retention copy for dormant Italian Premium users.
 
@@ -28,7 +28,7 @@ Without answers to these questions, marketing budgets were being allocated broad
 
 ## Methodology
 
-**Phase 1 — SQL: Data Preparation & Segmentation**
+**Phase 1 --> SQL: Data Preparation & Segmentation**
 - Structured and cleaned raw transaction data in PostgreSQL
 - Built analytical views for yearly, quarterly, and monthly breakdowns
 - Performed **RFM-based customer clustering** (Recency · Frequency · Rating) using CTEs and window functions
@@ -36,13 +36,13 @@ Without answers to these questions, marketing budgets were being allocated broad
 - Built **cohort retention analysis** to track repeat purchase rates by acquisition month
 - Flagged **churn risk segments** (High / Medium / Active) based on days since last purchase
 
-**Phase 2 — Python: EDA & Insight Generation**
+**Phase 2 --> Python: EDA & Insight Generation**
 - Cleaned and transformed data (date parsing, feature engineering, null validation)
 - Analysed sales trends across category, platform, country, price tier, and time
 - Calculated key commercial metrics: AOV proxy, GMV proxy, LTV proxy, sell-through rate, churn risk, retention rate
 - Built and visualised 4 RFM customer personas with actionable profiles
 
-**Phase 3 — Tableau: Commercial Dashboards**
+**Phase 3 --> Tableau: Commercial Dashboards**
 - Built two interactive dashboards: full-period overview (2021–2023) and 2021 annual deep dive
 - KPIs: transactions by tier, platform share, geo distribution, category performance, seasonal trend
 - Enabled stakeholder self-service with interactive filters (country, platform, price tier, date range)
