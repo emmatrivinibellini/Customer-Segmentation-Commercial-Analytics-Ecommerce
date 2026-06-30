@@ -73,6 +73,7 @@ Without answers to these questions, marketing budgets were being allocated broad
 |---|---|
 | ![General Dashboard](IMAGES/dashboard_general.png) | ![2021 Dashboard](IMAGES/dashboard_2021.png) |
 
+> 🎥 Prefer the interactive version? Watch the full [Dashboard Demo Video](https://drive.google.com/file/d/1Vxs85i5pg6zTXb4oU-jiATS0zbd4AeZi/view?usp=share_link)
 ---
 
 ### Python Analytics — Commercial Metrics
